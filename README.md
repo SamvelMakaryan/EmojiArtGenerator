@@ -1,6 +1,6 @@
 # EmojiArtGenerator
 
-This is a simple C++ program that takes an input image and an emoji image to create a new image where the emoji is overlaid on the input image.
+This is a simple C++ program that takes an input image and an emoji image to create a new image where the input image consist of emoji images.
 
 ## Requirements
 
@@ -17,7 +17,7 @@ This is a simple C++ program that takes an input image and an emoji image to cre
 5. Build program.
 6. Run the program.
     - ./EmojiArt `<input-image>` `<emoji-image>` `<emoji-size>` `<background-color>`
-        - `<input-image>`: The path to the input image on which the emoji will be overlaid.
+        - `<input-image>`: The path to the input image which will consist of emoji images.
         - `<emoji-image>`: The path to the emoji image that will be used for overlaying.
         - `<emoji-size>` (optional): The size of the emoji (default is 7x7).
         - `<background-color>` (optional): The background color in RGB format (default is white) or
